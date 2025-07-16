@@ -75,9 +75,8 @@ select * from Books order by stock limit 1 ;
 --11)calculate the total revenue generated from all orders;
 select sum(total_amount) as total_revenue from orders;
 
---12)
 
---1)Retrieve the total number of books sold for each genre
+--12)Retrieve the total number of books sold for each genre
 select * from  orders;
 select * from  Books;
 
